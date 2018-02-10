@@ -1307,3 +1307,11 @@ Cannot render console from 174.63.85.247! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 174.63.85.247 at 2018-02-10 01:08:24 +0000
 Cannot render console from 174.63.85.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 174.63.85.247 at 2018-02-10 01:17:47 +0000
+Cannot render console from 174.63.85.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=174.138.35.103%3A58152%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
