@@ -9,6 +9,10 @@ class SessionsController < ApplicationController
       req.params['redirect_uri'] = "https://174.138.35.103:58152/auth"
       req.params['code'] = params[:code]
     end
+
+    body = JSON.parse(resp.body)
+    session[:token] = body["access_token"]
+    redirect_to root_path
   end
 
 end
