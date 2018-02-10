@@ -7,8 +7,9 @@ class ApplicationController < ActionController::Base
 
     def authenticate_user
       client_id = ENV['FOURSQUARE_CLIENT_ID']
+      redirect_uri = CGI.escape("174.138.35.103:58152/auth")
     end
-  
+
     def logged_in?
       !!session[:token]
     end
